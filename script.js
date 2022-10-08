@@ -1,13 +1,22 @@
-
-
-function greeting () {
-    console.log("Hello my name is Rashford");
+function greeting(name) {
+    console.log("Hi my name is " + name);
 }
 
-greeting();
-greeting();
+greeting("Rashford");
+greeting("Malacia");
+greeting("Atony")
 
-const greeting1 = function() {
+function addition() {
+    console.log("Hi my name is ");
+}
+
+function add(x, y) {
+    console.log(x + y);
+}
+
+add(50, 20);
+
+/* const greeting1 = function() {
     console.log("Hello my name is Dalot");
 }
 
@@ -17,4 +26,5 @@ const greeting2 = () => {
     console.log("Hello my name is Malacia");
 }
 
-greeting2();
+greeting2(); */
+
